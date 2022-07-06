@@ -1,0 +1,36 @@
+.clients {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.clients__header {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    margin-top: 0;
+}
+
+.clients__item {
+    width: 170px;
+    height: 92px;
+    color: var(--social-networks-color);
+    outline: 1px solid currentColor;
+    border-radius: 4px;
+    @include display-center();
+    &:hover,
+    &:focus {
+            color: var(--accent-color)
+        }
+}
+
+.clients__icon {
+    fill: currentColor
+}
+
+.clients__group {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
